@@ -1,30 +1,33 @@
-body {
-    box-sizing: border-box;
-    color: #fff;
-    font-size: 80%;
-    padding: 1em;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+body {}
+
+.navbar {
+    background-color: palevioletred;
 }
 
-main {
-    height: 100%;
-    display: flex;
+.first {
+    margin-top: 2em;
 }
 
-article {
-    background-color: #675BA7;
-    flex: 2 2 12em;
+.second {
+    margin-top: 2em;
 }
 
-nav,
-aside {
-    flex: 1;
+.card {
+    box-shadow: 0 1em 2em 0 rgba(0, 0, 0, 0.2), 0 1em 2em 0 rgba(0, 0, 0, 0.19);
 }
 
-@media screen and (max-width: 500px) {
-    main {
-        flex-direction: column;
-    }
+h2 #title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 30px;
+    text-align: center;
+}
+
+#title {
+    font-family: cursive;
+}
+
+img {
+    overflow: hidden;
+    max-width: 100%;
+    height: 700px;
 }
